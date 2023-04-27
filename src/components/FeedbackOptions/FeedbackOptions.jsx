@@ -2,12 +2,11 @@ import PropTypes from 'prop-types';
 import './Feedback.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  const stateArr = Object.keys(options);
-  // console.log(stateArr);
+  const state = Object.keys(options);
 
   return (
     <div>
-      {stateArr.map(option => (
+      {state.map(option => (
         <button
           key={option}
           type="button"
