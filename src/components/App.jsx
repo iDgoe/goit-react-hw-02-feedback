@@ -1,20 +1,3 @@
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };
-
 import React, { Component } from 'react';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Statistics/Statistics';
@@ -42,6 +25,18 @@ export class App extends Component {
   render() {
     const { good, neutral, bad } = this.state;
     return (
+      // <div
+      //       style={{
+      //         height: '100vh',
+      //         display: 'flex',
+      //         justifyContent: 'center',
+      //         alignItems: 'center',
+      //         fontSize: 40,
+      //         color: '#010101'
+      //       }}
+      //     >
+      //       React homework template
+      //     </div>
       <>
         <Section title="Please leave feedback">
           <FeedbackOptions
